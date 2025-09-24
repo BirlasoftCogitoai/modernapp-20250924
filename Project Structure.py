@@ -1,0 +1,22 @@
+- `src/`
+  - `Api/`
+    - `Controllers/`
+      - `AuthController.cs`
+      - `UserController.cs`
+    - `Models/`
+      - `User.cs`
+      - `AuthResponse.cs`
+    - `Services/`
+      - `AuthService.cs`
+      - `UserService.cs`
+  - `Infrastructure/`
+    - `Data/`
+      - `AppDbContext.cs`
+    - `Repositories/`
+      - `IUserRepository.cs`
+      - `UserRepository.cs`
+  - `Utils/`
+    - `Extensions.cs`
+    - `Constants.cs`
+    - `JwtUtils.cs`
+  - `Program.cs`
